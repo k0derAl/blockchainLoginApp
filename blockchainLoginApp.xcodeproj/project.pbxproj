@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		078A0C41282C34CD00683DEE /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078A0C40282C34CD00683DEE /* UserSettings.swift */; };
+		07EC682C2826E0050000B9EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EC682B2826E0050000B9EA /* AppDelegate.swift */; };
+		07EC682E2826E0050000B9EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EC682D2826E0050000B9EA /* SceneDelegate.swift */; };
+		07EC68352826E0070000B9EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07EC68342826E0070000B9EA /* Assets.xcassets */; };
+		07EC68382826E0070000B9EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07EC68362826E0070000B9EA /* LaunchScreen.storyboard */; };
+		07EC68412826E1260000B9EA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EC68402826E1260000B9EA /* LoginViewController.swift */; };
+		07EC68432826E1820000B9EA /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EC68422826E1820000B9EA /* LoginViewModel.swift */; };
+		07EC68472826E4260000B9EA /* ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EC68462826E4260000B9EA /* ObservableObject.swift */; };
+		07EC6849282719F90000B9EA /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EC6848282719F90000B9EA /* NetworkService.swift */; };
+		91E883642A4884188B211686 /* Pods_blockchainLoginApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACDAE8E264096A2CA257290F /* Pods_blockchainLoginApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		078A0C40282C34CD00683DEE /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		07EC68282826E0050000B9EA /* blockchainLoginApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = blockchainLoginApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07EC682B2826E0050000B9EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		07EC682D2826E0050000B9EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		07EC68342826E0070000B9EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07EC68372826E0070000B9EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07EC68392826E0070000B9EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07EC68402826E1260000B9EA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		07EC68422826E1820000B9EA /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		07EC68462826E4260000B9EA /* ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObject.swift; sourceTree = "<group>"; };
+		07EC6848282719F90000B9EA /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		503D365D9A6B098857FB09F7 /* Pods-blockchainLoginApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-blockchainLoginApp.release.xcconfig"; path = "Target Support Files/Pods-blockchainLoginApp/Pods-blockchainLoginApp.release.xcconfig"; sourceTree = "<group>"; };
+		ACDAE8E264096A2CA257290F /* Pods_blockchainLoginApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_blockchainLoginApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B15ADFD1A28ABE53E6E74960 /* Pods-blockchainLoginApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-blockchainLoginApp.debug.xcconfig"; path = "Target Support Files/Pods-blockchainLoginApp/Pods-blockchainLoginApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07EC68252826E0050000B9EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91E883642A4884188B211686 /* Pods_blockchainLoginApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07EC681F2826E0050000B9EA = {
+			isa = PBXGroup;
+			children = (
+				07EC682A2826E0050000B9EA /* blockchainLoginApp */,
+				07EC68292826E0050000B9EA /* Products */,
+				82739E09C4F509A5A8F1417C /* Pods */,
+				56929473C561CA282024646A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		07EC68292826E0050000B9EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07EC68282826E0050000B9EA /* blockchainLoginApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07EC682A2826E0050000B9EA /* blockchainLoginApp */ = {
+			isa = PBXGroup;
+			children = (
+				07EC683F2826E10D0000B9EA /* LoginView */,
+				07EC682B2826E0050000B9EA /* AppDelegate.swift */,
+				07EC682D2826E0050000B9EA /* SceneDelegate.swift */,
+				07EC68342826E0070000B9EA /* Assets.xcassets */,
+				07EC68362826E0070000B9EA /* LaunchScreen.storyboard */,
+				07EC68392826E0070000B9EA /* Info.plist */,
+				07EC68462826E4260000B9EA /* ObservableObject.swift */,
+				07EC6848282719F90000B9EA /* NetworkService.swift */,
+				078A0C40282C34CD00683DEE /* UserSettings.swift */,
+			);
+			path = blockchainLoginApp;
+			sourceTree = "<group>";
+		};
+		07EC683F2826E10D0000B9EA /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				07EC68402826E1260000B9EA /* LoginViewController.swift */,
+				07EC68422826E1820000B9EA /* LoginViewModel.swift */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+		56929473C561CA282024646A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACDAE8E264096A2CA257290F /* Pods_blockchainLoginApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82739E09C4F509A5A8F1417C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B15ADFD1A28ABE53E6E74960 /* Pods-blockchainLoginApp.debug.xcconfig */,
+				503D365D9A6B098857FB09F7 /* Pods-blockchainLoginApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07EC68272826E0050000B9EA /* blockchainLoginApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07EC683C2826E0070000B9EA /* Build configuration list for PBXNativeTarget "blockchainLoginApp" */;
+			buildPhases = (
+				17B9A4E06EDF60BD45119FE1 /* [CP] Check Pods Manifest.lock */,
+				07EC68242826E0050000B9EA /* Sources */,
+				07EC68252826E0050000B9EA /* Frameworks */,
+				07EC68262826E0050000B9EA /* Resources */,
+				396B3A494339C9B0263F2187 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = blockchainLoginApp;
+			productName = blockchainLoginApp;
+			productReference = 07EC68282826E0050000B9EA /* blockchainLoginApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07EC68202826E0050000B9EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					07EC68272826E0050000B9EA = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 07EC68232826E0050000B9EA /* Build configuration list for PBXProject "blockchainLoginApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07EC681F2826E0050000B9EA;
+			productRefGroup = 07EC68292826E0050000B9EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07EC68272826E0050000B9EA /* blockchainLoginApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07EC68262826E0050000B9EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07EC68382826E0070000B9EA /* LaunchScreen.storyboard in Resources */,
+				07EC68352826E0070000B9EA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17B9A4E06EDF60BD45119FE1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-blockchainLoginApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		396B3A494339C9B0263F2187 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-blockchainLoginApp/Pods-blockchainLoginApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-blockchainLoginApp/Pods-blockchainLoginApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-blockchainLoginApp/Pods-blockchainLoginApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07EC68242826E0050000B9EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07EC68472826E4260000B9EA /* ObservableObject.swift in Sources */,
+				07EC68432826E1820000B9EA /* LoginViewModel.swift in Sources */,
+				07EC68412826E1260000B9EA /* LoginViewController.swift in Sources */,
+				07EC682C2826E0050000B9EA /* AppDelegate.swift in Sources */,
+				078A0C41282C34CD00683DEE /* UserSettings.swift in Sources */,
+				07EC6849282719F90000B9EA /* NetworkService.swift in Sources */,
+				07EC682E2826E0050000B9EA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		07EC68362826E0070000B9EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07EC68372826E0070000B9EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07EC683A2826E0070000B9EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		07EC683B2826E0070000B9EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07EC683D2826E0070000B9EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B15ADFD1A28ABE53E6E74960 /* Pods-blockchainLoginApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5K5823VS68;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = blockchainLoginApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = blockchainLoginApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		07EC683E2826E0070000B9EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 503D365D9A6B098857FB09F7 /* Pods-blockchainLoginApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5K5823VS68;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = blockchainLoginApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = blockchainLoginApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07EC68232826E0050000B9EA /* Build configuration list for PBXProject "blockchainLoginApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07EC683A2826E0070000B9EA /* Debug */,
+				07EC683B2826E0070000B9EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07EC683C2826E0070000B9EA /* Build configuration list for PBXNativeTarget "blockchainLoginApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07EC683D2826E0070000B9EA /* Debug */,
+				07EC683E2826E0070000B9EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07EC68202826E0050000B9EA /* Project object */;
+}
